@@ -19,3 +19,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('stage.bitsane.com')
+
+WebUI.click(findTestObject('Page_Bitsane/a_Log in'))
+
+WebUI.click(findTestObject('Page_Bitsane Exchange  Login/input_login'))
+
+WebUI.sendKeys(findTestObject('Page_Bitsane Exchange  Login/input_login'), 'vasya@mail.com')
+
+WebUI.sendKeys(findTestObject('Page_Bitsane Exchange  Login/input_password'), 'vasya')
+
+WebUI.click(findTestObject('Page_Bitsane Exchange  Login/input_send'))
+
+WebUI.check(findTestObject('Page_Bitsane Exchange  Login/span_Login or password invalid'))
+
+WebUI.closeBrowser()
+
