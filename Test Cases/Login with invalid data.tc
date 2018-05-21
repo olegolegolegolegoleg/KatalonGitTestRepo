@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login wuth invalid data</name>
+   <name>Login with invalid data</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2323f620-2574-47ac-b0e7-3aa8bfa5ba6a</testCaseGuid>
