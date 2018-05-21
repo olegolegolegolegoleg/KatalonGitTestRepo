@@ -1,0 +1,2 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+regress,,,2018-05-21 14:03:30,2018-05-21 14:03:31,"0,535s",PASSED
