@@ -49,7 +49,7 @@ WebUI.delay(4)
 
 WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/close_btn_modal'))
 
-not_run: WebUI.delay(2)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/orders_accordion'))
 
