@@ -24,7 +24,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stage.bitsane.com/')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
+
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.click(findTestObject('Page_Bitsane (7)/a_Sign up'))
 
@@ -49,8 +51,6 @@ WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (6)/i_fa fa-time
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Support/Tickets/support_yes_button_modal'), 0)
 
 WebUI.click(findTestObject('Page_Bitsane_Support/Tickets/support_yes_button_modal'))
-
-WebUI.delay(1)
 
 WebUI.closeBrowser()
 

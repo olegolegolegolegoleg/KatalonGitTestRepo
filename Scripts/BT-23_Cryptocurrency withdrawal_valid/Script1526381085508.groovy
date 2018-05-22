@@ -23,9 +23,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stage.bitsane.com/')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
 
-WebUI.waitForPageLoad(2)
+WebUI.setViewPortSize(1920, 1080)
+
+WebUI.waitForPageLoad(1)
 
 WebUI.click(findTestObject('Page_Bitsane/a_Log in'))
 
@@ -45,13 +47,11 @@ WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_address_B
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_proceed_BTC'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 not_run: WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_modal'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_result_button'))
-
-WebUI.delay(1)
 
 WebUI.closeBrowser()
 

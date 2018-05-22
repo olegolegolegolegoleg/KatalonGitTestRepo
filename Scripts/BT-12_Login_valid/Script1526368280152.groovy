@@ -41,7 +41,5 @@ WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_password'), '80
 
 WebUI.click(findTestObject('Page_Bitsane Exchange  Login/input_send'))
 
-WebUI.delay(1)
-
 WebUI.closeBrowser()
 

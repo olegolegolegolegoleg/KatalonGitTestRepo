@@ -24,7 +24,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stage.bitsane.com/')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
+
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.click(findTestObject('Page_Bitsane (9)/a_Log in'))
 
@@ -65,8 +67,6 @@ WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (8)/button_Cance
 WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (8)/i_icon-delete'))
 
 WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (8)/button_Delete key'))
-
-WebUI.delay(1)
 
 WebUI.closeBrowser()
 

@@ -23,7 +23,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stage.bitsane.com/help/faq')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
+
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.delay(2)
 
@@ -96,8 +98,6 @@ WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (15)/div_It says
 WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (15)/div_I havent received an activ'))
 
 WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (15)/div_How to register with Bitsa'))
-
-WebUI.delay(1)
 
 WebUI.closeBrowser()
 

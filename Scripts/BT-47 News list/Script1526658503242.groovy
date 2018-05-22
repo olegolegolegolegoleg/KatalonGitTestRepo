@@ -24,7 +24,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stage.bitsane.com/')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
+
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.click(findTestObject('Page_Bitsane (14)/a_Log in'))
 

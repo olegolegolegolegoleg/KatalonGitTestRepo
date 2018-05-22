@@ -23,7 +23,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stage.bitsane.com/')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
+
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.waitForPageLoad(2)
 
@@ -42,8 +44,6 @@ WebUI.click(findTestObject('Page_Bitsane_Balances/Orders/a_Orders'))
 WebUI.click(findTestObject('Page_Bitsane_Balances/Orders/EUR_history_button'))
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Orders/1st_order_push'))
-
-WebUI.delay(1)
 
 WebUI.closeBrowser()
 

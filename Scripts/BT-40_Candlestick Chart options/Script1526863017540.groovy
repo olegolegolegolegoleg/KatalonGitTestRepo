@@ -23,7 +23,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stage.bitsane.com/')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
+
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.delay(2)
 
@@ -52,8 +54,6 @@ WebUI.delay(3)
 WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/candle_from_period'), '2018-01-09')
 
 WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/candle_to_period'), '2018-04-10')
-
-WebUI.delay(1)
 
 WebUI.closeBrowser()
 

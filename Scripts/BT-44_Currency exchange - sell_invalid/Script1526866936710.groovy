@@ -23,7 +23,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stage.bitsane.com/')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
+
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.delay(2)
 
@@ -56,8 +58,6 @@ WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/close_btn_modal'))
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/orders_accordion'))
-
-WebUI.delay(1)
 
 WebUI.closeBrowser()
 

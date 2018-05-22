@@ -23,7 +23,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stage.bitsane.com/')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
+
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.delay(2)
 
@@ -44,8 +46,6 @@ WebUI.delay(2)
 WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/search_input'), 'XRP')
 
 WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/XRP_butt'))
-
-WebUI.delay(1)
 
 WebUI.closeBrowser()
 

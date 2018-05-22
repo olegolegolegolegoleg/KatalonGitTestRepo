@@ -66,13 +66,9 @@ if (text.contains('Login or password invalid. Please try again.')) {
 
     WebUI.click(findTestObject('Page_Bitsane Exchange  Login/input_send'))
 
-    WebUI.delay(1)
-
     WebUI.closeBrowser()
 } else {
     WebUI.executeJavaScript('alert(\'Text is not present\')', null)
-
-    WebUI.delay(1)
 
     WebUI.closeBrowser()
 }

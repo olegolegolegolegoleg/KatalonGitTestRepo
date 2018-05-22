@@ -23,7 +23,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stage.bitsane.com/')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
+
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.delay(2)
 
@@ -52,8 +54,6 @@ WebUI.setText(findTestObject('Page_Bitsane_Support/Tickets/support_subject'), 's
 WebUI.setText(findTestObject('Page_Bitsane_Support/Tickets/support_message_ticket'), 'my test message')
 
 WebUI.click(findTestObject('Page_Bitsane_Support/Tickets/support_submit_ticket'))
-
-WebUI.delay(1)
 
 WebUI.closeBrowser()
 

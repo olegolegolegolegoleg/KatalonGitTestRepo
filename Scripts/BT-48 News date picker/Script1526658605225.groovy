@@ -24,7 +24,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stage.bitsane.com/')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
+
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.click(findTestObject('Page_Bitsane (15)/a_Log in'))
 
@@ -47,8 +49,6 @@ WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (14)/a_May'))
 WebUI.selectOptionByValue(findTestObject('Page_Bitsane Exchange  Cryptocurren (14)/select_AprilMay'), '5', true)
 
 WebUI.verifyTextPresent('Тут какая то новость про то что какая то новость ', false)
-
-WebUI.delay(1)
 
 WebUI.closeBrowser()
 

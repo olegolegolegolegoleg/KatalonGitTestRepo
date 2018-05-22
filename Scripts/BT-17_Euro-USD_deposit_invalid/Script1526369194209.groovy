@@ -65,7 +65,5 @@ WebUI.setText(findTestObject('Page_Bitsane_Balances/Advcash/Advcash_pass'), '807
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Advcash/Advcash_login_button'))
 
-WebUI.delay(1)
-
 WebUI.closeBrowser()
 

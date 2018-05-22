@@ -23,7 +23,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stage.bitsane.com/')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
+
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.waitForPageLoad(2)
 
@@ -42,8 +44,6 @@ WebUI.click(findTestObject('Page_Bitsane_Balances/Vouchers/a_Vouchers'))
 WebUI.check(findTestObject('Page_Bitsane_Balances/Vouchers/select_all_checkbox'))
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Vouchers/i_fa fa-trash fa-2'))
-
-WebUI.delay(1)
 
 WebUI.closeBrowser()
 

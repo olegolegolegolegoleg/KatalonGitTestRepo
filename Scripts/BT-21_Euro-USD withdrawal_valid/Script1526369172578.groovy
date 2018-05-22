@@ -55,7 +55,5 @@ not_run: WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Walle
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_result_button'))
 
-WebUI.delay(1)
-
 WebUI.closeBrowser()
 

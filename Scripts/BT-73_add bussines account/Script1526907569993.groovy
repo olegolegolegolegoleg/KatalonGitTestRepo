@@ -25,7 +25,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stage.bitsane.com/')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
+
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.click(findTestObject('Page_Bitsane (5)/a_Log in'))
 
@@ -73,8 +75,6 @@ WebUI.setText(findTestObject('Page_Bitsane Exchange  Cryptocurren (4)/input_zipc
 WebUI.setText(findTestObject('Page_Bitsane Exchange  Cryptocurren (4)/input_phone'), '+11111')
 
 WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (4)/input_save'))
-
-WebUI.delay(1)
 
 WebUI.closeBrowser()
 

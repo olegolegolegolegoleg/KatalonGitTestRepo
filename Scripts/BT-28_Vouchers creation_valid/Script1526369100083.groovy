@@ -24,7 +24,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stage.bitsane.com/')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
+
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.waitForPageLoad(2)
 
@@ -49,8 +51,6 @@ WebUI.setText(findTestObject('Page_Bitsane_Balances/Vouchers/input_create-vouche
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Vouchers/input_create-voucher-pin pin-f'), '1111')
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Vouchers/button_Create voucher'))
-
-WebUI.delay(1)
 
 WebUI.closeBrowser()
 

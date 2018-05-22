@@ -23,15 +23,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stage.bitsane.com/help/faq')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
+
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_Bitsane_Support/Fees/support_fees'))
 
 WebUI.verifyTextPresent('Fee schedule', false)
-
-WebUI.delay(1)
 
 WebUI.closeBrowser()
 

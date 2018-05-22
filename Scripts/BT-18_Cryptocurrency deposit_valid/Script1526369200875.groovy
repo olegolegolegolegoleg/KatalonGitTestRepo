@@ -27,7 +27,7 @@ not_run: WebUI.maximizeWindow()
 
 WebUI.setViewPortSize(1920, 1080)
 
-WebUI.waitForPageLoad(2)
+WebUI.waitForPageLoad(1)
 
 WebUI.click(findTestObject('Page_Bitsane/a_Log in'))
 
@@ -69,8 +69,6 @@ WebUI.click(findTestObject('Page_Bitsane_Balances/BTC_Wallet/BTC_submit_button')
 WebUI.setText(findTestObject('Page_Bitsane_Balances/BTC_Wallet/Submit_password'), '807a4F3f3')
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/BTC_Wallet/BTC_K_button'))
-
-WebUI.delay(2)
 
 WebUI.closeBrowser()
 

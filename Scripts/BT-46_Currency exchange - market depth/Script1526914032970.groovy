@@ -23,13 +23,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stage.bitsane.com/exchange/btc-eur')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
+
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.delay(2)
 
 WebUI.scrollToElement(findTestObject('Page_Bitsane_exchange TradeOrders/market_depth_graph'), 0)
-
-WebUI.delay(1)
 
 WebUI.closeBrowser()
 
