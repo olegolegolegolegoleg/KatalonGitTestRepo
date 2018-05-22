@@ -29,29 +29,49 @@ WebUI.setViewPortSize(1920, 1080)
 
 WebUI.delay(2)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Login_btn'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/Login_btn'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Login_field'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/Login_field'), 'ax.kubitsky@gmail.com')
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Login_pass'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/Login_pass'), '807a4F3f3')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Login_submit'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/Login_submit'))
 
 WebUI.delay(3)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/candlestick_accordion'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/candlestick_accordion'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Pair_button'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/Pair_button'))
 
 WebUI.delay(2)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/search_input'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/search_input'), 'XRP')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/XRP_butt'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/XRP_butt'))
 
 WebUI.delay(3)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/candle_from_period'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/candle_from_period'), '2018-01-09')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/candle_to_period'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/candle_to_period'), '2018-04-10')
 

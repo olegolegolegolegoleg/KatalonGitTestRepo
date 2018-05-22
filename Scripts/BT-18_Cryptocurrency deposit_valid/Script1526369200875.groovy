@@ -41,6 +41,8 @@ WebUI.click(findTestObject('Page_Bitsane Exchange  Bitcoin Cash/a_Balances'))
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Deposit_button_BTC'))
 
+WebUI.waitForElementClickable(findTestObject('Page_Bitsane_Balances/Wallets/btn_copy_adress_btc'), 2)
+
 WebUI.verifyTextPresent('Transferring any other currency than BTC to this deposit address might result in loss of your deposit.', 
     false)
 
