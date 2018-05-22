@@ -29,19 +29,31 @@ WebUI.setViewPortSize(1920, 1080)
 
 WebUI.delay(2)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Login_btn'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/Login_btn'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Login_field'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/Login_field'), 'ax.kubitsky@gmail.com')
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Login_pass'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/Login_pass'), '807a4F3f3')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Login_submit'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/Login_submit'))
 
 WebUI.delay(6)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/orders_accordion'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/orders_accordion'))
 
 WebUI.delay(2)
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/cancel_order'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/cancel_order'))
 

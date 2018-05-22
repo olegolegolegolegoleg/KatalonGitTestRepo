@@ -29,6 +29,8 @@ WebUI.setViewPortSize(1920, 1080)
 
 WebUI.delay(2)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/market_depth_graph'), 2)
+
 WebUI.scrollToElement(findTestObject('Page_Bitsane_exchange TradeOrders/market_depth_graph'), 0)
 
 WebUI.closeBrowser()
