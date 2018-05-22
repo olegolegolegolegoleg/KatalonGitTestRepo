@@ -70,13 +70,7 @@ WebUI.setText(findTestObject('Page_Bitsane_Balances/BTC_Wallet/Submit_password')
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/BTC_Wallet/BTC_K_button'))
 
+WebUI.delay(3)
+
 WebUI.closeBrowser()
-
-not_run: WebUI.click(findTestObject('Page_Bitsane_Balances/Advcash/Payment_method'))
-
-not_run: WebUI.setText(findTestObject('Page_Bitsane_Balances/Advcash/Advcash_login'), 'alwx.mason@gmail.com')
-
-not_run: WebUI.setText(findTestObject('Page_Bitsane_Balances/Advcash/Advcash_pass'), '807a4f3f3')
-
-not_run: WebUI.click(findTestObject('Page_Bitsane_Balances/Advcash/Advcash_login_button'))
 
