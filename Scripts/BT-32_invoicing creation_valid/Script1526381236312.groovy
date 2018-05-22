@@ -72,7 +72,7 @@ WebUI.setText(findTestObject('Page_Bitsane_Balances/Invoicing/Datepicker_to'), t
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Select_invoices'))
 
-WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Checkbox_all'))
+WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Checkbox_specific_first'))
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Create_invoice'))
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Checkbox_specific</name>
+   <name>Checkbox_specifix_second</name>
    <tag></tag>
-   <elementGuidId>b420fd61-0477-4b6b-8a54-2f08af12a0b0</elementGuidId>
+   <elementGuidId>f61c9d80-2cca-4a1f-9bab-245d4e25598f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;selected_invoicing&quot;]/tr[28]/td[9]/label/i</value>
+         <value>//*[@id=&quot;selected_invoicing&quot;]/tr[2]/td[9]/label/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

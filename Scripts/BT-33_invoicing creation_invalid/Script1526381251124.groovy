@@ -57,7 +57,7 @@ WebUI.verifyElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Creat
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Buy_button'))
+WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Sell_button'))
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/EUR_button'))
 
@@ -89,7 +89,7 @@ WebUI.setText(findTestObject('Page_Bitsane_Balances/Invoicing/Datepicker_to'), t
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Select_invoices'))
 
-WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Checkbox_all'))
+WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Checkbox_specifix_second'))
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Create_invoice'))
 
