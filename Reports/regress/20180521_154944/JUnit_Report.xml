@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="regress" time="10" tests="1" failures="0" errors="0">
+   <testsuite name="regress" tests="1" failures="0" errors="0" time="10" timestamp="2018-05-21 15:49:46" hostname="DESKTOP-BKT0A0T$ - DESKTOP-BKT0A0T.corp.polaz.com" id="Test Suites/regress">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\oleg\\git\\KatalonGitTestRepo\\Reports\\regress\\20180521_154944"/>
+         <property name="logFiles" value="C:\\Users\\oleg\\git\\KatalonGitTestRepo\\Reports\\regress\\20180521_154944\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DESKTOP-BKT0A0T$ - DESKTOP-BKT0A0T.corp.polaz.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="192.168.233.2"/>
+         <property name="sessionId" value="e7e20cf57fa50a5d4f678936646d1dc8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login with invalid data" classname="Test Cases/Login with invalid data" status="PASSED">
+         <system-out><![CDATA[2018-05-21 15:49:47 - [TEST_CASE][PASSED] - Test Cases/Login with invalid data: Test Cases/Login with invalid data
+
+2018-05-21 15:49:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'stage.bitsane.com'
+
+2018-05-21 15:49:53 - [MESSAGE][PASSED] - Browser is opened with url: 'stage.bitsane.com'
+
+2018-05-21 15:49:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Bitsane/a_Log in' is clicked on
+
+2018-05-21 15:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Bitsane/a_Log in' is clicked on
+
+2018-05-21 15:49:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Bitsane Exchange  Login/input_login' is clicked on
+
+2018-05-21 15:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Bitsane Exchange  Login/input_login' is clicked on
+
+2018-05-21 15:49:55 - [TEST_STEP][PASSED] - sendKeys: Keys 'vasya@mail.com' sent to object: 'Object Repository/Page_Bitsane Exchange  Login/input_login'
+
+2018-05-21 15:49:55 - [MESSAGE][PASSED] - Keys 'vasya@mail.com' sent to object: 'Object Repository/Page_Bitsane Exchange  Login/input_login'
+
+2018-05-21 15:49:55 - [TEST_STEP][PASSED] - sendKeys: Keys 'vasya' sent to object: 'Object Repository/Page_Bitsane Exchange  Login/input_password'
+
+2018-05-21 15:49:55 - [MESSAGE][PASSED] - Keys 'vasya' sent to object: 'Object Repository/Page_Bitsane Exchange  Login/input_password'
+
+2018-05-21 15:49:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Bitsane Exchange  Login/input_send' is clicked on
+
+2018-05-21 15:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Bitsane Exchange  Login/input_send' is clicked on
+
+2018-05-21 15:49:55 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Page_Bitsane Exchange  Login/span_Login or password invalid' is checked
+
+2018-05-21 15:49:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Bitsane Exchange  Login/span_Login or password invalid' is checked
+
+2018-05-21 15:49:56 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-21 15:49:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-21 15:49:46 - [TEST_SUITE][PASSED] - regress: Test Cases/Login with invalid data]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
