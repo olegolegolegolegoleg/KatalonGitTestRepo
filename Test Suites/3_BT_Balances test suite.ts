@@ -4,6 +4,7 @@
    <name>3_BT_Balances test suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-05-22T13:42:38</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -81,6 +82,18 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BT-37_voucher delete</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>78bb98f9-ff98-4746-a7a4-45b7bf64342d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BT-41_Currency exchange - buy_Valid</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>878dee81-b2c7-46ef-af14-4ac350e5fa89</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BT-43_Currency exchange - sell_valid</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0927f914-773a-4ffe-b8f4-c21d21f98da5</guid>

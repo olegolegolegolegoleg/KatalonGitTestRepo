@@ -41,6 +41,8 @@ WebUI.click(findTestObject('Page_Bitsane Exchange  Bitcoin Cash/a_Balances'))
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_BTC'))
 
+WebUI.waitForElementClickable(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_amount_BTC'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_amount_BTC'), '0.001')
 
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_address_BTC'), '3KrczCtV2fr37BC8eQsC7mBh6JxoBuJHyS')
