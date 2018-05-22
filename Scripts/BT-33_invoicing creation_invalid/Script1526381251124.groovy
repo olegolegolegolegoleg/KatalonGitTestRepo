@@ -79,19 +79,21 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Invoices_error_button'))
 
-WebUI.setText(findTestObject('Page_Bitsane_Balances/Invoicing/Datepicker_from'), '01-05-18')
+Date today = new Date()
 
-WebUI.setText(findTestObject('Page_Bitsane_Balances/Invoicing/Datepicker_to'), '15-05-18')
+String todaysDate = today.format('dd-MM-yy')
+
+WebUI.setText(findTestObject('Page_Bitsane_Balances/Invoicing/Datepicker_from'), todaysDate)
+
+WebUI.setText(findTestObject('Page_Bitsane_Balances/Invoicing/Datepicker_to'), todaysDate)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Select_invoices'))
 
-not_run: WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Checkbox_all'))
-
-WebUI.scrollToElement(findTestObject('Page_Bitsane_Balances/Invoicing/Checkbox_specific'), 0)
-
-WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Checkbox_specific'))
+WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Checkbox_all'))
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Create_invoice'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/pdf link'))
 

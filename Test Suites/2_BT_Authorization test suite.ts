@@ -4,7 +4,7 @@
    <name>2_BT_Authorization test suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-22T11:09:52</lastRun>
+   <lastRun>2018-05-22T13:32:34</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
