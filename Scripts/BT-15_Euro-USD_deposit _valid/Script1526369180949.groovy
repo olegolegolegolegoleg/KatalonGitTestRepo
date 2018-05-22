@@ -45,6 +45,8 @@ WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_EURO')
 
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Deposit_deposit_amount_advcash_EURO'), '5')
 
+WebUI.waitForElementClickable(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_button_EURO'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_button_EURO'))
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Advcash/Payment_method'))

@@ -43,6 +43,8 @@ WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Deposit_button_EURO'))
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_EURO'))
 
+WebUI.waitForElementClickable(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_button_EURO'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_button_EURO'))
 
 WebUI.verifyTextPresent('Amount is empty', false)
@@ -54,6 +56,8 @@ WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_button
 WebUI.verifyTextPresent('Amount is less than minimal', false)
 
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Deposit_deposit_amount_advcash_EURO'), '5')
+
+WebUI.waitForElementClickable(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_button_EURO'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_button_EURO'))
 
