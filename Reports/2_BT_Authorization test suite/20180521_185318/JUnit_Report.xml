@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="2_BT_Authorization test suite" time="12" tests="0" failures="2" errors="0">
+   <testsuite name="2_BT_Authorization test suite" tests="0" failures="2" errors="0" time="12" timestamp="2018-05-21 18:53:20" hostname="A. Kubitsky - firiat" id="Test Suites/2_BT_Authorization test suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\A. Kubitsky\\Katalon Studio\\df\\Reports\\2_BT_Authorization test suite\\20180521_185318"/>
+         <property name="logFiles" value="C:\\Users\\A. Kubitsky\\Katalon Studio\\df\\Reports\\2_BT_Authorization test suite\\20180521_185318\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\A. Kubitsky\\Katalon Studio\\df\\Reports\\2_BT_Authorization test suite\\20180521_185318\\1526918006787.png, C:\\Users\\A. Kubitsky\\Katalon Studio\\df\\Reports\\2_BT_Authorization test suite\\20180521_185318\\1526918012380.png"/>
+         <property name="hostName" value="A. Kubitsky - firiat"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.170"/>
+         <property name="hostAddress" value="192.168.32.52"/>
+         <property name="sessionId" value="f45bb269acd2c69e341783d9a9925c85"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BT-12_Login_valid" classname="Test Cases/BT-12_Login_valid" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Bitsane/a_Log in' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: headless chrome=66.0.3359.170)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FIRIAT', ip: '192.168.32.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AA205~1.KUB\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.170, webStorageEnabled: true}
+Session ID: 722c4dc5e117fe0914c87a21de5e950f)"/>
+         <system-out><![CDATA[2018-05-21 18:53:20 - [TEST_CASE][FAILED] - Test Cases/BT-12_Login_valid: Test Cases/BT-12_Login_valid FAILED because (of) Unable to click on object 'Object Repository/Page_Bitsane/a_Log in' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: headless chrome=66.0.3359.170)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FIRIAT', ip: '192.168.32.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AA205~1.KUB\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.170, webStorageEnabled: true}
+Session ID: 722c4dc5e117fe0914c87a21de5e950f)
+
+2018-05-21 18:53:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-21 18:53:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-21 18:53:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stage.bitsane.com/' successfully
+
+2018-05-21 18:53:25 - [MESSAGE][PASSED] - Navigate to 'https://stage.bitsane.com/' successfully
+
+2018-05-21 18:53:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-21 18:53:26 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-21 18:53:26 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-21 18:53:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-21 18:53:26 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Bitsane/a_Log in' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: headless chrome=66.0.3359.170)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FIRIAT', ip: '192.168.32.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AA205~1.KUB\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.170, webStorageEnabled: true}
+Session ID: 722c4dc5e117fe0914c87a21de5e950f)
+
+2018-05-21 18:53:27 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Bitsane/a_Log in' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: headless chrome=66.0.3359.170)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FIRIAT', ip: '192.168.32.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AA205~1.KUB\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.170, webStorageEnabled: true}
+Session ID: 722c4dc5e117fe0914c87a21de5e950f)
+[[ATTACHMENT|C:\\Users\\A. Kubitsky\\Katalon Studio\\df\\Reports\\2_BT_Authorization test suite\\20180521_185318\\1526918006787.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-21 18:53:20 - [TEST_CASE][FAILED] - Test Cases/BT-12_Login_valid: Test Cases/BT-12_Login_valid FAILED because (of) Unable to click on object 'Object Repository/Page_Bitsane/a_Log in' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: headless chrome=66.0.3359.170)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FIRIAT', ip: '192.168.32.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AA205~1.KUB\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.170, webStorageEnabled: true}
+Session ID: 722c4dc5e117fe0914c87a21de5e950f)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BT-16_Login_invalid" classname="Test Cases/BT-16_Login_invalid" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Bitsane/a_Log in' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: headless chrome=66.0.3359.170)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FIRIAT', ip: '192.168.32.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AA205~1.KUB\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.170, webStorageEnabled: true}
+Session ID: f45bb269acd2c69e341783d9a9925c85)"/>
+         <system-out><![CDATA[2018-05-21 18:53:27 - [TEST_CASE][FAILED] - Test Cases/BT-16_Login_invalid: Test Cases/BT-16_Login_invalid FAILED because (of) Unable to click on object 'Object Repository/Page_Bitsane/a_Log in' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: headless chrome=66.0.3359.170)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FIRIAT', ip: '192.168.32.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AA205~1.KUB\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.170, webStorageEnabled: true}
+Session ID: f45bb269acd2c69e341783d9a9925c85)
+
+2018-05-21 18:53:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-21 18:53:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-21 18:53:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-21 18:53:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stage.bitsane.com/' successfully
+
+2018-05-21 18:53:31 - [MESSAGE][PASSED] - Navigate to 'https://stage.bitsane.com/' successfully
+
+2018-05-21 18:53:31 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-21 18:53:32 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-21 18:53:32 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-21 18:53:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-21 18:53:32 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Bitsane/a_Log in' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: headless chrome=66.0.3359.170)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FIRIAT', ip: '192.168.32.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AA205~1.KUB\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.170, webStorageEnabled: true}
+Session ID: f45bb269acd2c69e341783d9a9925c85)
+
+2018-05-21 18:53:32 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Bitsane/a_Log in' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: headless chrome=66.0.3359.170)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FIRIAT', ip: '192.168.32.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AA205~1.KUB\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.170, webStorageEnabled: true}
+Session ID: f45bb269acd2c69e341783d9a9925c85)
+[[ATTACHMENT|C:\\Users\\A. Kubitsky\\Katalon Studio\\df\\Reports\\2_BT_Authorization test suite\\20180521_185318\\1526918012380.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-21 18:53:27 - [TEST_CASE][FAILED] - Test Cases/BT-16_Login_invalid: Test Cases/BT-16_Login_invalid FAILED because (of) Unable to click on object 'Object Repository/Page_Bitsane/a_Log in' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: headless chrome=66.0.3359.170)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FIRIAT', ip: '192.168.32.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AA205~1.KUB\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.170, webStorageEnabled: true}
+Session ID: f45bb269acd2c69e341783d9a9925c85)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-21 18:53:20 - [TEST_SUITE][FAILED] - 2_BT_Authorization test suite: Test Cases/BT-12_Login_valid FAILED because (of) Unable to click on object 'Object Repository/Page_Bitsane/a_Log in' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: headless chrome=66.0.3359.170)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FIRIAT', ip: '192.168.32.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AA205~1.KUB\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.170, webStorageEnabled: true}
+Session ID: 722c4dc5e117fe0914c87a21de5e950f)]]></system-out>
+      <system-err><![CDATA[2018-05-21 18:53:20 - [TEST_SUITE][FAILED] - 2_BT_Authorization test suite: Test Cases/BT-12_Login_valid FAILED because (of) Unable to click on object 'Object Repository/Page_Bitsane/a_Log in' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: headless chrome=66.0.3359.170)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FIRIAT', ip: '192.168.32.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AA205~1.KUB\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.170, webStorageEnabled: true}
+Session ID: 722c4dc5e117fe0914c87a21de5e950f)]]></system-err>
+   </testsuite>
+</testsuites>

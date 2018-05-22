@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BT-33_invoicing creation_invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2c44c50-9742-43bb-9bc7-0f60c1a8e4c9</testCaseGuid>
+</TestCaseEntity>

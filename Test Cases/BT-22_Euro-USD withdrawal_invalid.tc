@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BT-22_Euro-USD withdrawal_invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9b67e76-b540-41db-80f2-a9fb0e6a1537</testCaseGuid>
+</TestCaseEntity>

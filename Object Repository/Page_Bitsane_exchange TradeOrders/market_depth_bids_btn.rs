@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>market_depth_bids_btn</name>
+   <tag></tag>
+   <elementGuidId>b8420d2f-08fb-425e-9e08-e5865e4f09d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;highcharts-17&quot;]/svg/g[6]/g/g/g[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>color:#000;font-size:12px;font-weight:bold;cursor:pointer;fill:#000;</value>
+   </webElementProperties>
+</WebElementEntity>

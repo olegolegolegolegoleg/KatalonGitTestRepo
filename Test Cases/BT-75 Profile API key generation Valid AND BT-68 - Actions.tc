@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://testlink.polaz.com/linkto.php?tprojectPrefix=BT&amp;item=testcase&amp;id=BT-60</description>
+   <name>BT-75 Profile API key generation Valid AND BT-68 - Actions</name>
+   <tag>BT-60</tag>
+   <comment></comment>
+   <testCaseGuid>a7afcdb9-735f-4659-ad90-423d73e64634</testCaseGuid>
+</TestCaseEntity>
