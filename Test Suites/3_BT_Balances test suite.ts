@@ -4,7 +4,7 @@
    <name>3_BT_Balances test suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-23T12:09:22</lastRun>
+   <lastRun>2018-05-23T12:13:58</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -76,5 +76,65 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BT-24_Cryptocurrency withdrawal_invalid</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e1b80dfa-f518-46ef-9db0-4b3d57c744db</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BT-28_Vouchers creation_valid</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9d0922dc-6af4-49dd-a194-e5ee2b7be3fe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BT-29_Vouchers creation_invalid</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>07f97b7e-1e24-4ce9-8cb5-6a24b889cfb2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BT-30_voucher redeem_valid</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>481f7254-88ab-4aeb-a533-6bf8f1ae4212</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BT-31_voucher redeem_invalid</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>52905ee2-856b-4758-bec6-ed44e2a6d35f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BT-37_voucher delete</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>074da0e0-423d-4d84-9e79-763887e272da</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BT-32_invoicing creation_valid</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>819efe96-a74f-4d6c-9d7a-07604ed1b30b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BT-33_invoicing creation_invalid</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5cfb8e34-22b5-45ba-aea6-848806e1a9de</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BT-34_invoices actions</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6a94996f-e200-4866-8ef7-a8e5ab56b5a8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BT-35_transactions options</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>94eecf7b-346a-41a5-8049-324e2631be1b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BT-36_orders_list</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
