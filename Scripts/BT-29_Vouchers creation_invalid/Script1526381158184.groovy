@@ -58,7 +58,7 @@ WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Cryptocurren/
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Vouchers/button_Create voucher'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Bitsane_Balances/Vouchers/Voucher_notification_1'), 3)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Vouchers/Voucher_notification_1'), 3)
 
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Cryptocurren/input_create-voucher-amount cu'), 2)
 
@@ -72,9 +72,9 @@ WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Cryptocurren/
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Vouchers/button_Create voucher'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Bitsane_Balances/Vouchers/Voucher_notification_2'), 3)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Vouchers/Voucher_notification_2'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Bitsane_Balances/Vouchers/Voucher_notification_2'), 3)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Vouchers/Voucher_notification_2'), 0)
 
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Vouchers/Choose_currency'), 2)
 
@@ -96,7 +96,7 @@ WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Vouchers/butto
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Vouchers/button_Create voucher'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Bitsane_Balances/Vouchers/Voucher_notification_3'), 3)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Vouchers/Voucher_notification_3'), 0)
 
 WebUI.closeBrowser()
 
