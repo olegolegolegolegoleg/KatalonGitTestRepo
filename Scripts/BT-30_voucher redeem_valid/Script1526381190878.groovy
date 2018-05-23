@@ -67,7 +67,7 @@ WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Vouchers/butto
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Vouchers/button_Redeem voucher'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Bitsane_Balances/Vouchers/success notify'), 1)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Vouchers/success notify'), 1)
 
 WebUI.closeBrowser()
 
