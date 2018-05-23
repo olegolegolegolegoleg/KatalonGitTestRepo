@@ -27,21 +27,37 @@ not_run: WebUI.maximizeWindow()
 
 WebUI.setViewPortSize(1920, 1080)
 
-WebUI.waitForPageLoad(1)
+WebUI.waitForPageLoad(2)
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane/a_Log in'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane/a_Log in'))
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_login'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_login'), 'ax.kubitsky@gmail.com')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_password'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_password'), '807a4F3f3')
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_send'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane Exchange  Login/input_send'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Bitcoin Cash/a_Balances'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane Exchange  Bitcoin Cash/a_Balances'))
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_EURO'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_EURO'))
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_EURO'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_EURO'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_button_EURO'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_button_EURO'))
 
@@ -49,11 +65,17 @@ WebUI.verifyTextPresent('Field is required', false)
 
 WebUI.delay(2)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_amount_EURO'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_amount_EURO'), '0')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_recipient_EURO'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_recipient_EURO'), 'alwx.mason@gmail.com')
 
-WebUI.verifyTextPresent('amount should be more than fee (0.01 Fee)', false)
+WebUI.verifyTextPresent('amount should be more than fee', false)
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_button_EURO'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_button_EURO'))
 
@@ -61,9 +83,15 @@ WebUI.delay(2)
 
 WebUI.verifyTextPresent('Amount is less than minimal', false)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_amount_EURO'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_amount_EURO'), '0.5')
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_recipient_EURO'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_recipient_EURO'), 'alwx.mason.gmail.com')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_button_EURO'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_button_EURO'))
 
@@ -71,13 +99,21 @@ WebUI.delay(2)
 
 WebUI.verifyTextPresent('Recipient is not valid', false)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_amount_EURO'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_amount_EURO'), '0.5')
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_recipient_EURO'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_recipient_EURO'), 'alwx.mason@gmail.com')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_button_EURO'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_button_EURO'))
 
 WebUI.delay(2)
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_result_button'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_result_button'))
 

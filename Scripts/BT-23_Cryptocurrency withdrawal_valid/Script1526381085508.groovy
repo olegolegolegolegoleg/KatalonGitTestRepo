@@ -29,29 +29,49 @@ WebUI.setViewPortSize(1920, 1080)
 
 WebUI.waitForPageLoad(1)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane/a_Log in'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane/a_Log in'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_login'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_login'), 'ax.kubitsky@gmail.com')
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_password'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_password'), '807a4F3f3')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_send'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane Exchange  Login/input_send'))
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Bitcoin Cash/a_Balances'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane Exchange  Bitcoin Cash/a_Balances'))
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_BTC'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_BTC'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_amount_BTC'), 2)
 
 WebUI.waitForElementClickable(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_amount_BTC'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_amount_BTC'), '0.001')
 
+WebUI.waitForElementPresent(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_address_BTC'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_address_BTC'), '3KrczCtV2fr37BC8eQsC7mBh6JxoBuJHyS')
+
+WebUI.waitForElementPresent(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_proceed_BTC'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_proceed_BTC'))
 
 WebUI.delay(2)
 
 not_run: WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_modal'), 2)
+
+WebUI.waitForElementPresent(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_result_button'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_result_button'))
 

@@ -29,19 +29,35 @@ WebUI.setViewPortSize(1920, 1080)
 
 WebUI.waitForPageLoad(2)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane/a_Log in'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane/a_Log in'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_login'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_login'), 'ax.kubitsky@gmail.com')
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_password'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_password'), '807a4F3f3')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_send'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane Exchange  Login/input_send'))
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Bitcoin Cash/a_Balances'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane Exchange  Bitcoin Cash/a_Balances'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Cryptocurren/a_Vouchers'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Vouchers/a_Vouchers'))
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Vouchers/select_all_checkbox'), 2)
+
 WebUI.check(findTestObject('Page_Bitsane_Balances/Vouchers/select_all_checkbox'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Vouchers/i_fa fa-trash fa-2'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Vouchers/i_fa fa-trash fa-2'))
 

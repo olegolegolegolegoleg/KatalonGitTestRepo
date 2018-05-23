@@ -29,23 +29,41 @@ WebUI.setViewPortSize(1920, 1080)
 
 WebUI.waitForPageLoad(2)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane/a_Log in'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane/a_Log in'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_login'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_login'), 'ax.kubitsky@gmail.com')
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_password'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_password'), '807a4F3f3')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_send'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane Exchange  Login/input_send'))
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Bitcoin Cash/a_Balances'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane Exchange  Bitcoin Cash/a_Balances'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Cryptocurren/a_Vouchers'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Vouchers/a_Vouchers'))
 
 voucherRedeem = WebUI.getAttribute(findTestObject('Page_Bitsane_Balances/Vouchers/i_fa fa-files-o'), 'value')
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Vouchers/input_create-voucher-amount REDEEM'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Vouchers/input_create-voucher-amount REDEEM'), voucherRedeem)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Vouchers/input_create-voucher-pin pin-f -REDEEM'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Vouchers/input_create-voucher-pin pin-f -REDEEM'), '1111')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Vouchers/button_Redeem voucher'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Vouchers/button_Redeem voucher'))
 

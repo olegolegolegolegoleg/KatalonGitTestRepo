@@ -29,19 +29,35 @@ WebUI.setViewPortSize(1920, 1080)
 
 WebUI.waitForPageLoad(2)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane/a_Log in'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane/a_Log in'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_login'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_login'), 'ax.kubitsky@gmail.com')
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_password'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_password'), '807a4F3f3')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_send'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane Exchange  Login/input_send'))
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Bitcoin Cash/a_Balances'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane Exchange  Bitcoin Cash/a_Balances'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Deposit_button_EURO'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Deposit_button_EURO'))
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_EURO'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_EURO'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_button_EURO'), 2)
 
 WebUI.waitForElementClickable(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_button_EURO'), 2)
 
@@ -49,23 +65,39 @@ WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_button
 
 WebUI.verifyTextPresent('Amount is empty', false)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Deposit_deposit_amount_advcash_EURO'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Deposit_deposit_amount_advcash_EURO'), '4')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_button_EURO'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_button_EURO'))
 
 WebUI.verifyTextPresent('Amount is less than minimal', false)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Deposit_deposit_amount_advcash_EURO'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Deposit_deposit_amount_advcash_EURO'), '5')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_button_EURO'), 2)
 
 WebUI.waitForElementClickable(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_button_EURO'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_button_EURO'))
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Advcash/Payment_method'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_Balances/Advcash/Payment_method'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Advcash/Advcash_login'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Advcash/Advcash_login'), 'alwx.mason@gmail.com')
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Advcash/Advcash_pass'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Advcash/Advcash_pass'), '807a4f3f3')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Advcash/Advcash_login_button'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Advcash/Advcash_login_button'))
 
