@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Download_pdf</name>
+   <name>input_city</name>
    <tag></tag>
-   <elementGuidId>a32b478a-097d-4f80-ba23-a1bf67bab815</elementGuidId>
+   <elementGuidId>b6f37684-f481-4b70-b704-da6132c2bc74</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[2]/div[2]/div[2]/div[1]/a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>name</name>
       <type>Main</type>
-      <value>save</value>
+      <value>city</value>
    </webElementProperties>
 </WebElementEntity>

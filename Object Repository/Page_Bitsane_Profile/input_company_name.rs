@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Download_pdf</name>
+   <name>input_company_name</name>
    <tag></tag>
-   <elementGuidId>a32b478a-097d-4f80-ba23-a1bf67bab815</elementGuidId>
+   <elementGuidId>9ac4beab-95bc-42e5-8546-abdddca5bd20</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@name = 'company_name
+']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[2]/div[2]/div[2]/div[1]/a[2]</value>
+         <value>//*[@id=&quot;passport_verification_form&quot;]/div[1]/div/div[1]/div[1]/input</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>name</name>
       <type>Main</type>
-      <value>save</value>
+      <value>company_name
+</value>
    </webElementProperties>
 </WebElementEntity>

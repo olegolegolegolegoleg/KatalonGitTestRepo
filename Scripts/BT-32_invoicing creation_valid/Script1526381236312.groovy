@@ -30,17 +30,31 @@ WebUI.setViewPortSize(1920, 1080)
 
 WebUI.waitForPageLoad(2)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane/a_Log in'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane/a_Log in'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_login'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_login'), 'ax.kubitsky@gmail.com')
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_password'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_password'), '807a4F3f3')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_send'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane Exchange  Login/input_send'))
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Bitcoin Cash/a_Balances'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane Exchange  Bitcoin Cash/a_Balances'))
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Invoices_menu_link'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Invoices_menu_link'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Sell_button'), 2)
 
 WebUI.verifyElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Sell_button'))
 
@@ -58,7 +72,11 @@ WebUI.verifyElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Creat
 
 WebUI.delay(2)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Sell_button'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Sell_button'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/EUR_button'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/EUR_button'))
 
@@ -66,17 +84,29 @@ Date today = new Date()
 
 String todaysDate = today.format('dd-MM-yy')
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Datepicker_from'), 2)
+
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Invoicing/Datepicker_from'), todaysDate)
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Datepicker_to'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Invoicing/Datepicker_to'), todaysDate)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Select_invoices'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Select_invoices'))
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Checkbox_specific_first'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Checkbox_specific_first'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Create_invoice'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Create_invoice'))
 
 WebUI.delay(2)
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/pdf link'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/pdf link'))
 

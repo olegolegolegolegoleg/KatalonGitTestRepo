@@ -50,7 +50,11 @@ WebUI.click(findTestObject('Page_Bitsane_Balances/Invoices_list/Show'))
 
 WebUI.delay(2)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoices_list/Download_pdf'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoices_list/Download_pdf'))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Download_pdf</name>
+   <name>add_account_btn</name>
    <tag></tag>
-   <elementGuidId>a32b478a-097d-4f80-ba23-a1bf67bab815</elementGuidId>
+   <elementGuidId>883fbb5a-f91a-41a9-a15a-d532a74752c3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[2]/div[2]/div[2]/div[1]/a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,7 +15,7 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>name</name>
       <type>Main</type>
       <value>save</value>
    </webElementProperties>

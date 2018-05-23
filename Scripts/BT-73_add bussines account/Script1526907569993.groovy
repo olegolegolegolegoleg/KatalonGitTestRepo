@@ -29,52 +29,95 @@ not_run: WebUI.maximizeWindow()
 
 WebUI.setViewPortSize(1920, 1080)
 
-WebUI.click(findTestObject('Page_Bitsane (5)/a_Log in'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane/a_Log in'), 2)
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Login (5)/input_login'), 'biakait9@polaz.com')
+WebUI.click(findTestObject('Page_Bitsane/a_Log in'))
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Login (5)/input_password'), 'Biakait911')
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_login'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Login (5)/input_send'))
+WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_login'), 'ax.kubitsky@gmail.com')
 
-WebUI.maximizeWindow()
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_password'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Bitcoin (BTC (2)/a_Profile'))
+WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_password'), '807a4F3f3')
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (4)/a_Accounts'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_send'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (4)/a_Add business account'))
+WebUI.click(findTestObject('Page_Bitsane Exchange  Login/input_send'))
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Cryptocurren (4)/input_company_name'), '1111111111111')
+WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Cryptocurren (4)/input_address'), '111111111111111111')
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/profile'), 2)
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Cryptocurren (4)/input_address'), '11111111111111111')
+WebUI.click(findTestObject('Page_Bitsane_Profile/profile'))
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Cryptocurren (4)/input_manager_name'), 'zzzzzzzzzzzzz')
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/a_Accounts'), 2)
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Cryptocurren (4)/input_city'), 'zzzzzzzzzzzzzz')
+WebUI.click(findTestObject('Page_Bitsane_Profile/a_Accounts'))
 
-WebUI.click(findTestObject('data'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/a_Add business account'), 2)
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Cryptocurren (4)/a_9'), '11-10-2011')
+WebUI.click(findTestObject('Page_Bitsane_Profile/a_Add business account'))
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Cryptocurren (4)/input_state'), 'zzzzzzzzzzzzzzzzz')
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/input_company_name'), 2)
 
-WebUI.setText(findTestObject('registration number field'), RandomStringUtils.randomNumeric(7))
+WebUI.setText(findTestObject('Page_Bitsane_Profile/input_company_name'), '1111111111111')
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (4)/span_select country'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/input_address'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (4)/span_Afghanistan'))
+WebUI.setText(findTestObject('Page_Bitsane_Profile/input_address'), '111111111111111111')
 
-WebUI.selectOptionByValue(findTestObject('Page_Bitsane Exchange  Cryptocurren (4)/select_select countryAfghanist'), 'AF', 
-    true)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/input_manager_name'), 2)
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Cryptocurren (4)/input_zipcode'), '1001')
+WebUI.setText(findTestObject('Page_Bitsane_Profile/input_manager_name'), 'zzzzzzzzzzzzz')
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Cryptocurren (4)/input_phone'), '+11111')
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/input_city'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (4)/input_save'))
+WebUI.setText(findTestObject('Page_Bitsane_Profile/input_city'), '11111111111111111')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/input_date_of_incorp'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/input_date_of_incorp'))
+
+WebUI.setText(findTestObject('Page_Bitsane_Profile/input_date_of_incorp'), '11-10-2011')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/input_state'), 2)
+
+WebUI.setText(findTestObject('Page_Bitsane_Profile/input_state'), 'zzzzzzzzzzzzzz')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/registration number field'), 2)
+
+WebUI.setText(findTestObject('Page_Bitsane_Profile/registration number field'), RandomStringUtils.randomNumeric(7))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/input_country_select'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/input_country_select'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/span_Afghanistan'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/span_Afghanistan'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/select_select countryAfghanist'), 2)
+
+WebUI.selectOptionByValue(findTestObject('Page_Bitsane_Profile/select_select countryAfghanist'), 'AF', true)
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/input_VAT_code'), 2)
+
+WebUI.setText(findTestObject('Page_Bitsane_Profile/input_VAT_code'), '111111')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/input_post_code'), 2)
+
+WebUI.setText(findTestObject('Page_Bitsane_Profile/input_post_code'), '1001')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/input_phone'), 2)
+
+WebUI.setText(findTestObject('Page_Bitsane_Profile/input_phone'), '+11111')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/add_account_btn'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/add_account_btn'))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 
