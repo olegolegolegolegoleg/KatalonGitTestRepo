@@ -53,7 +53,7 @@ WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Withdr
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_BTC'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_proceed_BTC'), 2)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_proceed_BTC'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_proceed_BTC'))
 
@@ -61,11 +61,11 @@ WebUI.delay(1)
 
 WebUI.verifyTextPresent('Field is required', false)
 
-WebUI.waitForElementPresent(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_proceed_BTC'), 2)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_proceed_BTC'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_amount_BTC'), '0')
 
-WebUI.waitForElementPresent(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_proceed_BTC'), 2)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_proceed_BTC'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_proceed_BTC'))
 
@@ -75,15 +75,15 @@ WebUI.verifyTextPresent('Amount is less than minimal', false)
 
 WebUI.verifyTextPresent('amount should be more than fee', false)
 
-WebUI.waitForElementPresent(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_amount_BTC'), 2)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_amount_BTC'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_amount_BTC'), '0.0001')
 
-WebUI.waitForElementPresent(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_address_BTC'), 2)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_address_BTC'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_address_BTC'), 'фыва4й4цукйукафыафыа')
 
-WebUI.waitForElementPresent(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_proceed_BTC'), 2)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_proceed_BTC'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_proceed_BTC'))
 
@@ -91,15 +91,15 @@ WebUI.delay(1)
 
 WebUI.verifyTextPresent('Address format is not valid', false)
 
-WebUI.waitForElementPresent(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_amount_BTC'), 2)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_amount_BTC'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_amount_BTC'), '0.001')
 
-WebUI.waitForElementPresent(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_address_BTC'), 2)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_address_BTC'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_address_BTC'), '3KrczCtV2fr37BC8eQsC7mBh6JxoBuJHyS')
 
-WebUI.waitForElementPresent(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_proceed_BTC'), 2)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_proceed_BTC'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_button_proceed_BTC'))
 
@@ -107,7 +107,7 @@ WebUI.delay(2)
 
 not_run: WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_modal'), 2)
 
-WebUI.waitForElementPresent(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_result_button'), 2)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_result_button'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_result_button'))
 
