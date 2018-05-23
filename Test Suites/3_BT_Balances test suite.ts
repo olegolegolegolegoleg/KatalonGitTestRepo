@@ -12,22 +12,28 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>1823297d-7377-4371-9949-4fdaa7195ded</testSuiteGuid>
    <testCaseLink>
-      <guid>552bb8b7-13f6-4bfd-b5de-2cc143ae27e7</guid>
+      <guid>78bb98f9-ff98-4746-a7a4-45b7bf64342d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BT-15_Euro-USD_deposit _valid</testCaseId>
+      <testCaseId>Test Cases/BT-41_Currency exchange - buy_Valid</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f1a07cc0-b3ab-4007-af48-e168441aadb9</guid>
+      <guid>781b8675-ef51-4c93-8334-b0e66b0aa4d0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BT-17_Euro-USD_deposit_invalid</testCaseId>
+      <testCaseId>Test Cases/BT-42_Currency exchange - buy_invalid</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2e96e987-548a-4c0f-9db3-12d173410531</guid>
+      <guid>878dee81-b2c7-46ef-af14-4ac350e5fa89</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BT-18_Cryptocurrency deposit_valid</testCaseId>
+      <testCaseId>Test Cases/BT-43_Currency exchange - sell_valid</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cdcdf3dc-43d7-4dae-a304-dbdbcc772d32</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BT-44_Currency exchange - sell_invalid</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8374cfc4-b067-4d92-ab2c-6b6a301b6e94</guid>
@@ -52,6 +58,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BT-24_Cryptocurrency withdrawal_invalid</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>552bb8b7-13f6-4bfd-b5de-2cc143ae27e7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BT-15_Euro-USD_deposit _valid</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c4d0c2f3-12e1-4f14-a3d8-b5ac3e6cf9c5</guid>
@@ -84,16 +96,16 @@
       <testCaseId>Test Cases/BT-37_voucher delete</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>78bb98f9-ff98-4746-a7a4-45b7bf64342d</guid>
+      <guid>f1a07cc0-b3ab-4007-af48-e168441aadb9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BT-41_Currency exchange - buy_Valid</testCaseId>
+      <testCaseId>Test Cases/BT-17_Euro-USD_deposit_invalid</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>878dee81-b2c7-46ef-af14-4ac350e5fa89</guid>
+      <guid>2e96e987-548a-4c0f-9db3-12d173410531</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BT-43_Currency exchange - sell_valid</testCaseId>
+      <testCaseId>Test Cases/BT-18_Cryptocurrency deposit_valid</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0927f914-773a-4ffe-b8f4-c21d21f98da5</guid>
