@@ -28,27 +28,39 @@ not_run: WebUI.maximizeWindow()
 
 WebUI.setViewPortSize(1920, 1080)
 
-WebUI.click(findTestObject('Page_Bitsane (7)/a_Sign up'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Login_btn'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Signup/a_Log In'))
+WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/Login_btn'))
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Signup/a_Log In'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Login_field'), 2)
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Signup/input_login'), 'ax.kubitsky@gmail.com')
+WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/Login_field'), 'ax.kubitsky@gmail.com')
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Signup/input_password'), '807a4F3f3')
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Login_pass'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Signup/input_send'))
+WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/Login_pass'), '807a4F3f3')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Login_submit'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/Login_submit'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Ripple (XRP)/a_Support'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane Exchange  Ripple (XRP)/a_Support'))
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (6)/a_create a ticket.'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Support/a_create a ticket.'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (6)/a_Tickets'))
+WebUI.click(findTestObject('Page_Bitsane_Support/a_create a ticket.'))
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (6)/i_fa fa-times'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Support/a_Tickets'), 2)
 
-WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Support/Tickets/support_yes_button_modal'), 0)
+WebUI.click(findTestObject('Page_Bitsane_Support/a_Tickets'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Support/button_Yes'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Support/button_Yes'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Support/Tickets/support_yes_button_modal'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Support/Tickets/support_yes_button_modal'))
 

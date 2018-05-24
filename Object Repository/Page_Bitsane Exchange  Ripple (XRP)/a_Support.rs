@@ -4,7 +4,17 @@
    <name>a_Support</name>
    <tag></tag>
    <elementGuidId>ca181dd9-dceb-43eb-94ca-2071962838d0</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/help/faq' and (text() = 'Support' or . = 'Support')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[1]/div[2]/ul[3]/li[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

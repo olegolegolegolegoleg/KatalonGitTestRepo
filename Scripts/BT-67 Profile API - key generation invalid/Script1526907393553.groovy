@@ -28,45 +28,82 @@ not_run: WebUI.maximizeWindow()
 
 WebUI.setViewPortSize(1920, 1080)
 
-WebUI.click(findTestObject('Page_Bitsane (9)/a_Log in'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane/a_Log in'), 2)
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Login (8)/input_login'), 'ax.kubitsky@gmail.com')
+'\r\n'
+WebUI.click(findTestObject('Page_Bitsane/a_Log in'))
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Login (8)/input_password'), '807a4F3f3')
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_login'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Login (8)/input_send'))
+WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_login'), 'ax.kubitsky@gmail.com')
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Bitcoin (BTC (5)/a_Profile'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_password'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (8)/a_API'))
+WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_password'), '807a4F3f3')
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (8)/a_Generate new API key'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_send'), 2)
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Cryptocurren (8)/input_description'), 'Test key')
+WebUI.click(findTestObject('Page_Bitsane Exchange  Login/input_send'))
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Cryptocurren (8)/input_new_ip'), '1')
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/profile'), 2)
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Cryptocurren (8)/input_new_ip'), '1234567890')
+WebUI.click(findTestObject('Page_Bitsane_Profile/profile'))
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (8)/button_Add IP'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/a_API'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (8)/div_IP        Address format i'))
+WebUI.click(findTestObject('Page_Bitsane_Profile/a_API'))
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Cryptocurren (8)/input_new_ip'), '192.168.0.1')
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/a_Generate new API key'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (8)/button_Add IP'))
+WebUI.click(findTestObject('Page_Bitsane_Profile/a_Generate new API key'))
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (8)/i_fa fa-times'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/input_description'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (8)/button_Generate key'))
+WebUI.setText(findTestObject('Page_Bitsane_Profile/input_description'), 'Test key')
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (8)/img_mCS_img_loaded'))
+WebUI.setText(findTestObject('Page_Bitsane_Profile/input_new_ip'), '1234567890')
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (8)/button_Cancel'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/button_Add IP'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (8)/i_icon-delete'))
+WebUI.click(findTestObject('Page_Bitsane_Profile/button_Add IP'))
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (8)/button_Delete key'))
+WebUI.verifyTextPresent('Address format is not valid', false)
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/div_IP        Address format i'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/div_IP        Address format i'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/input_new_ip'), 2)
+
+WebUI.setText(findTestObject('Page_Bitsane_Profile/input_new_ip'), '192.168.0.1')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/button_Add IP'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/button_Add IP'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/i_fa fa-times'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/i_fa fa-times'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/button_Generate key'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/button_Generate key'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/img_mCS_img_loaded'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/img_mCS_img_loaded'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/button_Cancel'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/button_Cancel'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/i_icon-delete'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/i_icon-delete'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/button_Delete key'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/button_Delete key'))
 
 WebUI.closeBrowser()
 

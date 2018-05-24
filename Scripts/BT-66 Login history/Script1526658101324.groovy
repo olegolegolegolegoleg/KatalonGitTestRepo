@@ -28,27 +28,42 @@ not_run: WebUI.maximizeWindow()
 
 WebUI.setViewPortSize(1920, 1080)
 
-WebUI.click(findTestObject('Page_Bitsane (13)/a_Log in'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane/a_Log in'), 2)
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Login (12)/input_login'), 'ax.kubitsky@gmail.com')
+'\r\n'
+WebUI.click(findTestObject('Page_Bitsane/a_Log in'))
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Login (12)/input_password'), '807a4F3f3')
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_login'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Login (12)/input_send'))
+WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_login'), 'ax.kubitsky@gmail.com')
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Bitcoin (BTC (9)/a_Profile'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_password'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (12)/a_Login History'))
+WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_password'), '807a4F3f3')
 
-WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Cryptocurren (12)/a_load more'), 0)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_send'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (12)/a_load more'))
+WebUI.click(findTestObject('Page_Bitsane Exchange  Login/input_send'))
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (12)/a_load more'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/profile'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (12)/a_load more'))
+WebUI.click(findTestObject('Page_Bitsane_Profile/profile'))
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (12)/input_all_session_logout'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/a_Login History'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/a_Login History'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/a_load more'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/a_load more'))
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/a_load more'))
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/a_load more'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/input_all_session_logout'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/input_all_session_logout'))
 
 WebUI.closeBrowser()
 

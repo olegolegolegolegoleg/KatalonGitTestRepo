@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Order_size</name>
+   <name>error_message_minimal_order_size</name>
    <tag></tag>
-   <elementGuidId>f0ab6491-6be4-41dc-b10e-1dc045a8ddbc</elementGuidId>
+   <elementGuidId>52375ac6-2297-45af-bd2f-04cf52c84df8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;order-size&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>class</name>
       <type>Main</type>
-      <value>order-size</value>
+      <value>order-size-error</value>
    </webElementProperties>
 </WebElementEntity>

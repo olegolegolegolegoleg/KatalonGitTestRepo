@@ -28,17 +28,25 @@ not_run: WebUI.maximizeWindow()
 
 WebUI.setViewPortSize(1920, 1080)
 
-WebUI.click(findTestObject('Page_Bitsane (14)/a_Log in'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane/a_Log in'), 2)
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Login (13)/input_login'), 'ax.kubitsky@gmail.com')
+WebUI.click(findTestObject('Page_Bitsane/a_Log in'))
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Login (13)/input_password'), '807a4F3f3')
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_login'), 2)
 
-WebUI.sendKeys(findTestObject('Page_Bitsane Exchange  Login (13)/input_password'), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_login'), 'ax.kubitsky@gmail.com')
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Bitcoin (BTC (10)/a_News'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_password'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (13)/a_'))
+WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_password'), '807a4F3f3')
+
+WebUI.sendKeys(findTestObject('Page_Bitsane Exchange  Login/input_password'), Keys.chord(Keys.ENTER))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane/a_News'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane/a_News'))
+
+WebUI.click(findTestObject('Page_Bitsane/news_first_paragraph'))
 
 WebUI.closeBrowser()
 

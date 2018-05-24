@@ -28,19 +28,34 @@ not_run: WebUI.maximizeWindow()
 
 WebUI.setViewPortSize(1920, 1080)
 
-WebUI.click(findTestObject('Page_Bitsane (11)/a_Log in'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane/a_Log in'), 2)
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Login (10)/input_login'), 'ax.kubitsky@gmail.com')
+'\r\n'
+WebUI.click(findTestObject('Page_Bitsane/a_Log in'))
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Login (10)/input_password'), '807a4F3f3')
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_login'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Login (10)/input_send'))
+WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_login'), 'ax.kubitsky@gmail.com')
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Bitcoin (BTC (7)/a_Profile'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_password'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (10)/a_Promo code'))
+WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_password'), '807a4F3f3')
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (10)/a_History'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_send'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane Exchange  Login/input_send'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/profile'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/profile'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/a_Promo code'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/a_Promo code'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/a_History'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/a_History'))
 
 WebUI.closeBrowser()
 

@@ -4,6 +4,7 @@
    <name>5_BT_News test suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-05-24T12:00:47</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

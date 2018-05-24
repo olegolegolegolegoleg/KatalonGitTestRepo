@@ -28,25 +28,33 @@ not_run: WebUI.maximizeWindow()
 
 WebUI.setViewPortSize(1920, 1080)
 
-WebUI.click(findTestObject('Page_Bitsane (15)/a_Log in'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane/a_Log in'), 2)
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Login (13)/input_login'), 'ax.kubitsky@gmail.com')
+WebUI.click(findTestObject('Page_Bitsane/a_Log in'))
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Login (13)/input_password'), '807a4F3f3')
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_login'), 2)
 
-WebUI.sendKeys(findTestObject('Page_Bitsane Exchange  Login (14)/input_password'), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_login'), 'ax.kubitsky@gmail.com')
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Bitcoin (BTC (11)/a_News'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_password'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (14)/span_2018'))
+WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_password'), '807a4F3f3')
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (14)/span_2018'))
+WebUI.sendKeys(findTestObject('Page_Bitsane Exchange  Login/input_password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (14)/span_April'))
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane/a_News'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (14)/a_May'))
+WebUI.click(findTestObject('Page_Bitsane/a_News'))
 
-WebUI.selectOptionByValue(findTestObject('Page_Bitsane Exchange  Cryptocurren (14)/select_AprilMay'), '5', true)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_News/span_2018'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_News/span_2018'))
+
+WebUI.click(findTestObject('Page_Bitsane_News/span_April'))
+
+WebUI.click(findTestObject('Page_Bitsane_News/a_May'))
+
+WebUI.selectOptionByValue(findTestObject('Page_Bitsane_News/select_AprilMay'), '5', true)
 
 WebUI.verifyTextPresent('Тут какая то новость про то что какая то новость ', false)
 

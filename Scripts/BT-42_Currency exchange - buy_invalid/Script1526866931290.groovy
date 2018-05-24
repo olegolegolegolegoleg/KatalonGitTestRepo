@@ -51,9 +51,7 @@ WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Or
 
 WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/Order_size'), '0.000001')
 
-WebUI.delay(1)
-
-WebUI.verifyTextPresent('Minimal size is', false)
+WebUI.verifyElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/error_message_minimal_order_size'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Order_size'), 2)
 
