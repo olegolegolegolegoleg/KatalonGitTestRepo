@@ -84,11 +84,7 @@ Date today = new Date()
 
 String todaysDate = today.format('dd-MM-yy')
 
-WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Datepicker_from'), 2)
-
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Invoicing/Datepicker_from'), todaysDate)
-
-WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Datepicker_to'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Invoicing/Datepicker_to'), todaysDate)
 
@@ -99,6 +95,8 @@ WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Select_invoices'))
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Checkbox_specific_first'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Checkbox_specific_first'))
+
+WebUI.delay(3)
 
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Create_invoice'), 2)
 

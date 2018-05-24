@@ -57,7 +57,11 @@ WebUI.verifyElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Creat
 
 WebUI.delay(2)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Sell_button'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Sell_button'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/EUR_button'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/EUR_button'))
 
@@ -65,17 +69,25 @@ WebUI.setText(findTestObject('Page_Bitsane_Balances/Invoicing/Datepicker_from'),
 
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Invoicing/Datepicker_to'), '15-05-14')
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Select_invoices'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Select_invoices'))
 
 WebUI.delay(2)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Invoices_error_button'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Invoices_error_button'))
 
-WebUI.delay(2)
+WebUI.delay(3)
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Create_invoice'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Create_invoice'))
 
 WebUI.delay(2)
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Invoices_error_button'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Invoices_error_button'))
 
@@ -87,13 +99,23 @@ WebUI.setText(findTestObject('Page_Bitsane_Balances/Invoicing/Datepicker_from'),
 
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Invoicing/Datepicker_to'), todaysDate)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Select_invoices'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Select_invoices'))
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Checkbox_specifix_second'), 2)
+
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Checkbox_specifix_second'))
+
+WebUI.delay(3)
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Create_invoice'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Create_invoice'))
 
 WebUI.delay(2)
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/pdf link'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/pdf link'))
 
