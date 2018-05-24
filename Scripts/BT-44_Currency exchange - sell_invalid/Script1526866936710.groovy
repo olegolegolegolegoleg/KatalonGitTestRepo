@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://bitsane.com/')
+WebUI.navigateToUrl('https://stage.bitsane.com/')
 
 not_run: WebUI.maximizeWindow()
 
@@ -45,17 +45,13 @@ WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Lo
 
 WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/Login_submit'))
 
-WebUI.delay(8)
+WebUI.delay(6)
 
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Order_size'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/Order_size'), '0.000001')
 
-WebUI.delay(10)
-
-WebUI.verifyTextPresent('Minimal size is', false)
-
-WebUI.delay(2)
+WebUI.verifyElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/error_message_minimal_order_size'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Order_size'), 2)
 
@@ -64,11 +60,6 @@ WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/Order_size'), '0
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/order_sell_price'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/order_sell_price'), '200')
-
-for (int i = 0; i < 4; i++) {
-    //Execute this test case 5 times
-    WebUI.callTestCase(findTestCase('Test Cases/BT-44_Currency exchange - sell_invalid'), [:], FailureHandling.STOP_ON_FAILURE)
-}
 
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/sell_btn'), 2)
 
