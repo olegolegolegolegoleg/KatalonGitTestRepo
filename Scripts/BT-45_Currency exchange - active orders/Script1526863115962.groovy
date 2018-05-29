@@ -45,6 +45,24 @@ WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Lo
 
 WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/Login_submit'))
 
+WebUI.delay(4)
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Order_size'), 2)
+
+WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/Order_size'), '0.01')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/order_sell_price'), 2)
+
+WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/order_sell_price'), '100')
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/sell_btn'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/sell_btn'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/close_btn_modal'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/close_btn_modal'))
+
 WebUI.delay(6)
 
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/orders_accordion'), 2)
