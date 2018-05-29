@@ -53,7 +53,7 @@ WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/Order_size'), '0
 
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/order_sell_price'), 2)
 
-WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/order_sell_price'), '200')
+WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/order_sell_price'), '100')
 
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/sell_btn'), 2)
 
@@ -73,7 +73,7 @@ WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/Order_size'), '0
 
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/order_sell_price'), 2)
 
-WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/order_sell_price'), '100')
+WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/order_sell_price'), '150')
 
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/sell_btn'), 2)
 

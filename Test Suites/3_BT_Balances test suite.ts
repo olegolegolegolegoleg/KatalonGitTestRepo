@@ -4,7 +4,7 @@
    <name>3_BT_Balances test suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-24T13:35:00</lastRun>
+   <lastRun>2018-05-25T16:20:25</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -48,9 +48,15 @@
       <testCaseId>Test Cases/BT-17_Euro-USD_deposit_invalid</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5faa452f-b9de-4bb6-8934-c3153606e9fd</guid>
+      <guid>20fae960-77f6-4b93-bd82-549341d313c2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+      <testCaseId>Test Cases/BT-18_1_Cryptocurrency deposit with no deposit_valid</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5faa452f-b9de-4bb6-8934-c3153606e9fd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/BT-18_Cryptocurrency deposit_valid</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -66,15 +72,27 @@
       <testCaseId>Test Cases/BT-22_Euro-USD withdrawal_invalid</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d48461a4-73f1-4025-b922-718bfef68a6c</guid>
+      <guid>65372c76-43df-4b6c-963b-7bf4b9325aae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+      <testCaseId>Test Cases/BT-23_1_Cryptocurrency withdrawal with no withdrawal_valid</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>056d5cd8-3bca-43c6-a67e-94c833d835af</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BT-24_1_Cyptocurrency withdrawal with no withdrawal_invalid</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d48461a4-73f1-4025-b922-718bfef68a6c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/BT-23_Cryptocurrency withdrawal_valid</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>31751597-769b-4622-8523-b39b94fdb542</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/BT-24_Cryptocurrency withdrawal_invalid</testCaseId>
    </testCaseLink>
    <testCaseLink>

@@ -59,7 +59,7 @@ WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/Order_size'), '0
 
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/order_buy_price'), 2)
 
-WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/order_buy_price'), '200')
+WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/order_buy_price'), '250')
 
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/buy_btn'), 2)
 

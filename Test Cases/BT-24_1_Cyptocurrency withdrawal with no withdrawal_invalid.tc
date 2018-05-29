@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BT-24_1_Cyptocurrency withdrawal with no withdrawal_invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ded56bc0-9367-46f3-b05e-f3bea233212b</testCaseGuid>
+</TestCaseEntity>
