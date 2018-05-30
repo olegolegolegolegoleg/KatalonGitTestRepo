@@ -107,15 +107,7 @@ WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Advcas
 
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_recipient_EURO'), 'alwx.mason@gmail.com')
 
-WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_button_EURO'), 2)
-
-WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_button_EURO'))
-
-WebUI.delay(2)
-
-WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_result_button'), 2)
-
-WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Withdrawal_result_button'))
+WebUI.verifyElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_button_EURO'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
