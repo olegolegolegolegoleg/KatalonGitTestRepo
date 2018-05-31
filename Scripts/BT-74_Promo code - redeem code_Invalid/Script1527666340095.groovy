@@ -49,3 +49,19 @@ WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/profile'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Profile/profile'))
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/Promo_code/a_Promo code'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/Promo_code/a_Promo code'))
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/Promo_code/your_promo_code'))
+
+WebUI.setText(findTestObject('Page_Bitsane_Profile/Promo_code/your_promo_code'), 'asdfwertr134r13')
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/Promo_code/redeem_btn'))
+
+WebUI.verifyElementVisible(findTestObject('Page_Bitsane_Profile/Promo_code/promo_cod_notif_invalid'))
+
+WebUI.delay(1)
+
+WebUI.closeBrowser()
+

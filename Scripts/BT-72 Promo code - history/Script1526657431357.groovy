@@ -49,9 +49,9 @@ WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/profile'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Profile/profile'))
 
-WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/a_Promo code'), 2)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/Promo_code/a_Promo code'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane_Profile/a_Promo code'))
+WebUI.click(findTestObject('Page_Bitsane_Profile/Promo_code/a_Promo code'))
 
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/a_History'), 2)
 

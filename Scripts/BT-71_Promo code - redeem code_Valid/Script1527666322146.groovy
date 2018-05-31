@@ -49,3 +49,15 @@ WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/profile'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Profile/profile'))
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/Promo_code/a_Promo code'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_Profile/Promo_code/a_Promo code'))
+
+WebUI.verifyElementVisible(findTestObject('Page_Bitsane_Profile/Promo_code/your_promo_code'))
+
+WebUI.verifyElementVisible(findTestObject('Page_Bitsane_Profile/Promo_code/redeem_btn'))
+
+WebUI.delay(1)
+
+WebUI.closeBrowser()
+
