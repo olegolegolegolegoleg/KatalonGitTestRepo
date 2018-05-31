@@ -47,6 +47,30 @@ WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/Login_submit'))
 
 WebUI.delay(6)
 
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Pair_button_1'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/Pair_button_1'))
+
+WebUI.delay(2)
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/BTC_btn_modal'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/BTC_btn_modal'))
+
+WebUI.delay(2)
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Pair_button_2'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/Pair_button_2'))
+
+WebUI.delay(2)
+
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/EUR_btn_modal'), 2)
+
+WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/EUR_btn_modal'))
+
+WebUI.delay(2)
+
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Order_size'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane_exchange TradeOrders/Order_size'), '0.000001')

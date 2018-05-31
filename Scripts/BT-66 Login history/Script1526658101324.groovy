@@ -45,9 +45,9 @@ WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Login/input_s
 
 WebUI.click(findTestObject('Page_Bitsane Exchange  Login/input_send'))
 
-WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/profile'), 2)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/profile_admin'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane_Profile/profile'))
+WebUI.click(findTestObject('Page_Bitsane_Profile/profile_admin'))
 
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/a_Login History'), 2)
 

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Pair_button</name>
+   <name>BTC_btn_modal</name>
    <tag></tag>
-   <elementGuidId>8ef459e6-c952-4c93-a5e0-873b46c3abfc</elementGuidId>
+   <elementGuidId>ca68b1b4-82ff-40ee-9f08-dee8907c1efa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[2]/div[3]/div/div[1]/button[1]</value>
+         <value>//*[@id=&quot;mCSB_3_container&quot;]/ul/li[3]/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

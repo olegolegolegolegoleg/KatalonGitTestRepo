@@ -51,9 +51,9 @@ WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/ca
 
 WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/candlestick_accordion'))
 
-WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Pair_button'), 2)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/Pair_button_1'), 2)
 
-WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/Pair_button'))
+WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/Pair_button_1'))
 
 WebUI.delay(2)
 
