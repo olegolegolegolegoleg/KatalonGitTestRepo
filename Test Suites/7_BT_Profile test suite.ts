@@ -4,7 +4,7 @@
    <name>7_BT_Profile test suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-24T12:00:47</lastRun>
+   <lastRun>2018-05-25T16:20:25</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -21,13 +21,13 @@
       <guid>4da70227-ad3b-4b26-a0cd-f49e551d3547</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BT-75 Profile API key generation Valid AND BT-68 - Actions</testCaseId>
+      <testCaseId>Test Cases/BT-67 Profile API key generation Valid AND BT-68 - Actions</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>08c5f275-343c-4743-a9ac-e03b87e9bab2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BT-67 Profile API - key generation invalid</testCaseId>
+      <testCaseId>Test Cases/BT-75 Profile API - key generation invalid</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cfc82a11-c7cb-439d-a653-bdd7a6c5c7d5</guid>

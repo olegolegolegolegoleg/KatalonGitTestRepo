@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>BT-67 Profile API - key generation invalid</name>
+   <name>BT-75 Profile API - key generation invalid</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>711ec9f8-b163-4003-8e6d-4d0ade0f005d</testCaseGuid>

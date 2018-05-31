@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>profile</name>
+   <name>subscribe_click</name>
    <tag></tag>
-   <elementGuidId>42424a90-2396-4e34-8b61-b37ed54dbb76</elementGuidId>
+   <elementGuidId>0214572c-e9c5-49bf-9a53-26b5d7fb3011</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/div[1]/div[2]/ul[3]/li[3]/a</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

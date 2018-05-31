@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>profile</name>
+   <name>personal_info_li</name>
    <tag></tag>
-   <elementGuidId>42424a90-2396-4e34-8b61-b37ed54dbb76</elementGuidId>
+   <elementGuidId>a6403b1e-d70e-4aff-a68a-669550f5a30a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/div[1]/div[2]/ul[3]/li[3]/a</value>
+         <value>/html/body/div[1]/div[2]/div/div[2]/div[1]/div[1]/ul/li[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

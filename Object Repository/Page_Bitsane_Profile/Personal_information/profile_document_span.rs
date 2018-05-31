@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>profile</name>
+   <name>profile_document_span</name>
    <tag></tag>
-   <elementGuidId>42424a90-2396-4e34-8b61-b37ed54dbb76</elementGuidId>
+   <elementGuidId>b93e155a-7080-4afd-9198-5fe9da83311d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/div[1]/div[2]/ul[3]/li[3]/a</value>
+         <value>//*[@id=&quot;passport_verification_form&quot;]/div/div[1]/div/div[6]/div[1]/div[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

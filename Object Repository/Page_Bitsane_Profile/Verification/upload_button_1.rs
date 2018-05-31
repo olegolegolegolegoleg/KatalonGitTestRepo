@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>profile</name>
+   <name>upload_button_1</name>
    <tag></tag>
-   <elementGuidId>42424a90-2396-4e34-8b61-b37ed54dbb76</elementGuidId>
+   <elementGuidId>412e90c9-7857-4bc3-a134-c2672cb83797</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/div[1]/div[2]/ul[3]/li[3]/a</value>
+         <value>/html/body/div[1]/div[2]/div/div[2]/div[2]/div/form/div[1]/div[1]/div[2]/button
+</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

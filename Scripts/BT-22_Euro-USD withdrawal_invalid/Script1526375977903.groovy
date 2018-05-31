@@ -109,5 +109,7 @@ WebUI.setText(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_recipient_EU
 
 WebUI.verifyElementVisible(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_withdrawal_button_EURO'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
+
 WebUI.closeBrowser()
 
