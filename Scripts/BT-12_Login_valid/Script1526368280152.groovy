@@ -21,19 +21,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://stage.bitsane.com/')
-
-not_run: WebUI.maximizeWindow()
-
-WebUI.setViewPortSize(1920, 1080)
+WebUI.navigateToUrl('https://stage.bitsane.com/login')
 
 WebUI.waitForPageLoad(2)
-
-'\r\n'
-WebUI.click(findTestObject('Page_Bitsane/a_Log in'))
-
-'btn for tab/mobile res\r\n\r\n\r\n'
-not_run: WebUI.click(findTestObject('Page_Bitsane/login_b'))
 
 WebUI.setText(findTestObject('Page_Bitsane Exchange  Login/input_login'), 'ax.kubitsky@gmail.com')
 
