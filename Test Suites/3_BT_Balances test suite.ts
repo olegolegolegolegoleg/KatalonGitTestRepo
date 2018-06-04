@@ -4,7 +4,7 @@
    <name>3_BT_Balances test suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-25T16:20:25</lastRun>
+   <lastRun>2018-06-04T10:35:14</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

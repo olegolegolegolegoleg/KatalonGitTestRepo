@@ -4,7 +4,7 @@
    <name>6_BT_Support test suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-24T12:00:47</lastRun>
+   <lastRun>2018-06-04T10:53:28</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
