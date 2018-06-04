@@ -117,6 +117,8 @@ WebUI.delay(2)
 
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_exchange TradeOrders/close_btn_modal'), 2)
 
+WebUI.verifyElementClickable(findTestObject('Page_Bitsane_exchange TradeOrders/close_btn_modal'))
+
 WebUI.click(findTestObject('Page_Bitsane_exchange TradeOrders/close_btn_modal'))
 
 WebUI.delay(2)
