@@ -55,9 +55,11 @@ WebUI.verifyElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Selec
 
 WebUI.verifyElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Create_invoice'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
-WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Sell_button'), 2)
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Invoicing/Sell_button'), 4)
+
+WebUI.verifyElementClickable(findTestObject('Page_Bitsane_Balances/Invoicing/Sell_button'))
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Invoicing/Sell_button'))
 

@@ -24,54 +24,71 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stage.bitsane.com/')
 
-WebUI.maximizeWindow()
+WebUI.setViewPortSize(1920, 1080)
 
-WebUI.click(findTestObject('Page_Bitsane (20)/a_Sign up'))
+WebUI.waitForPageLoad(2)
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Signup (1)/input_email'), 'biakait9+1@polaz.com')
+WebUI.waitForElementVisible(findTestObject('Page_Bitsane Signup/signup_btn'), 0)
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Signup (1)/input_password'), 'Biakait911')
+WebUI.verifyElementClickable(findTestObject('Page_Bitsane Signup/signup_btn'))
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Signup (1)/input_confirm_password'), 'Biakait911')
+WebUI.click(findTestObject('Page_Bitsane Signup/signup_btn'))
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Signup (1)/span_Please select your countr'))
+WebUI.waitForPageLoad(4)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Signup (1)/span_Afghanistan'))
+WebUI.delay(2)
 
-WebUI.selectOptionByValue(findTestObject('Page_Bitsane Exchange  Signup (1)/select_Please select your coun'), 'AF', true)
+WebUI.verifyElementClickable(findTestObject('Page_Bitsane Signup/email_input'))
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Signup (1)/div_recaptcha-checkbox-checkma'))
+WebUI.click(findTestObject('Page_Bitsane Signup/email_input'))
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Signup (1)/i_icon-checkbox'))
+WebUI.setText(findTestObject('Page_Bitsane Signup/email_input'), 'alwx.mason+1@gmail.com')
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Signup (1)/input_submitbutton'))
+WebUI.verifyElementClickable(findTestObject('Page_Bitsane Signup/pass_input'))
 
-WebUI.navigateToUrl('https://accounts.google.com/signin/v2/identifier?passive=1209600&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount&followup=https%3A%2F%2Faccounts.google.com%2FManageAccount&flowName=GlifWebSignIn&flowEntry=ServiceLogin')
+WebUI.click(findTestObject('Page_Bitsane Signup/pass_input'))
 
-WebUI.setText(findTestObject('Page_ Google/input_identifier'), 'biakait9@polaz.com')
+WebUI.setText(findTestObject('Page_Bitsane Signup/pass_input'), '807a4F3f3')
 
-WebUI.click(findTestObject('Page_ Google/span_'))
+WebUI.verifyElementClickable(findTestObject('Page_Bitsane Signup/pass_confirm'))
 
-WebUI.setText(findTestObject('Page_ Google/input_password'), 'biakait911')
+WebUI.click(findTestObject('Page_Bitsane Signup/pass_confirm'))
 
-WebUI.click(findTestObject('Page_ Google/span_'))
+WebUI.setText(findTestObject('Page_Bitsane Signup/pass_confirm'), '807a4F3f3')
 
-WebUI.click(findTestObject('Page_/path'))
+WebUI.verifyElementClickable(findTestObject('Page_Bitsane Signup/countries_span'))
 
-WebUI.click(findTestObject('Page_/span_gb_2'))
+WebUI.click(findTestObject('Page_Bitsane Signup/countries_span'))
 
-WebUI.click(findTestObject('Page_stage Activation - biakait9pol/a_Verify my email address'))
+WebUI.verifyElementClickable(findTestObject('Page_Bitsane Signup/albania'))
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Cryptocurren (18)/input_code'), 'ТУТ КОД')
+WebUI.click(findTestObject('Page_Bitsane Signup/albania'))
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (18)/input_btn elastic'))
+WS.sendRequest(findTestObject('Page_Bitsane Signup/keys_captcha'))
 
-WebUI.setText(findTestObject('Page_Bitsane Exchange  Cryptocurren (18)/input_code'), 'b698db08a84c34f7060b4082f7c641ee')
+WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_Bitsane Exchange  Cryptocurren (18)/input_btn elastic'))
+WebUI.verifyElementPresent(findTestObject('Page_Bitsane Signup/captcha_checkbox'), 2)
 
-WebUI.closeBrowser()
+WebUI.verifyElementVisible(findTestObject('Page_Bitsane Signup/captcha_checkbox'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Page_Bitsane Signup/captcha_checkbox'))
 
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_Bitsane Signup/captcha_window'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.verifyElementClickable(findTestObject('Page_Bitsane Signup/terms_checkbox'))
+
+WebUI.click(findTestObject('Page_Bitsane Signup/terms_checkbox'))
+
+WebUI.verifyElementClickable(findTestObject('Page_Bitsane Signup/subscription_checkbox'))
+
+WebUI.click(findTestObject('Page_Bitsane Signup/subscription_checkbox'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Page_Bitsane Signup/submit_button_reg'))
 

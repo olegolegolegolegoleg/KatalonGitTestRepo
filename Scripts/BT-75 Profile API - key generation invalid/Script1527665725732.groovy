@@ -81,6 +81,8 @@ WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/button_Add IP')
 
 WebUI.click(findTestObject('Page_Bitsane_Profile/button_Add IP'))
 
+WebUI.delay(2)
+
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Profile/i_fa fa-times'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Profile/i_fa fa-times'))

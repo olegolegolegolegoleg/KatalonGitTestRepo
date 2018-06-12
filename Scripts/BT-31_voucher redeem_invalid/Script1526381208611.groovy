@@ -53,14 +53,6 @@ WebUI.waitForElementVisible(findTestObject('Page_Bitsane Exchange  Cryptocurren/
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Vouchers/a_Vouchers'))
 
-WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Vouchers/button_Redeem voucher'), 2)
-
-WebUI.click(findTestObject('Page_Bitsane_Balances/Vouchers/button_Redeem voucher'))
-
-WebUI.verifyElementPresent(findTestObject('Page_Bitsane_Balances/Vouchers/Voucher_notification_1'), 2)
-
-WebUI.delay(1)
-
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Vouchers/input_create-voucher-amount REDEEM'), 2)
 
 WebUI.setText(findTestObject('Page_Bitsane_Balances/Vouchers/input_create-voucher-amount REDEEM'), '47843254')

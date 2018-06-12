@@ -87,6 +87,12 @@ WebUI.click(findTestObject('Page_Bitsane_Balances/Wallets/Advcash_deposit_button
 
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Advcash/Payment_method'), 2)
 
+WebUI.waitForElementClickable(findTestObject('Page_Bitsane_Balances/Advcash/Payment_method'), 2)
+
+WebUI.verifyElementVisible(findTestObject('Page_Bitsane_Balances/Advcash/Payment_method'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementClickable(findTestObject('Page_Bitsane_Balances/Advcash/Payment_method'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Page_Bitsane_Balances/Advcash/Payment_method'))
 
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Advcash/Advcash_login'), 2)
@@ -100,6 +106,8 @@ WebUI.setText(findTestObject('Page_Bitsane_Balances/Advcash/Advcash_pass'), '807
 WebUI.waitForElementVisible(findTestObject('Page_Bitsane_Balances/Advcash/Advcash_login_button'), 2)
 
 WebUI.click(findTestObject('Page_Bitsane_Balances/Advcash/Advcash_login_button'))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 
